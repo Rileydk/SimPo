@@ -136,6 +136,9 @@
                                         <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Gk0-0Y-lU7" kind="presentation" id="U3a-IV-HzQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdI-US-LDN">
                                 <rect key="frame" x="40" y="15" width="44" height="40"/>
@@ -181,32 +184,47 @@
             <objects>
                 <viewController id="Gk0-0Y-lU7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oAA-og-Ix3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gL6-BV-Jt2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.74901960779999999" blue="0.65098039220000004" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcF-AW-iDN">
-                                <rect key="frame" x="148.5" y="164" width="117" height="48"/>
+                                <rect key="frame" x="148.5" y="120" width="117" height="48"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f55-ii-EYz">
-                                <rect key="frame" x="163" y="344" width="88" height="48"/>
+                                <rect key="frame" x="163" y="300" width="88" height="48"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hec-23-qPG">
-                                <rect key="frame" x="164" y="534" width="86" height="78"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.74901960779999999" blue="0.65098039220000004" alpha="0.85438605249999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <rect key="frame" x="238" y="480" width="86" height="78"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="20" maxX="10" maxY="10"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Stop">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xec-9c-pos">
+                                <rect key="frame" x="90" y="480" width="111" height="78"/>
+                                <color key="backgroundColor" red="0.12549019610000001" green="0.74901960779999999" blue="0.65098039220000004" alpha="0.85438605249999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="48"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="20" maxX="10" maxY="10"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Pause">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -220,17 +238,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="f55-ii-EYz" firstAttribute="centerX" secondItem="oAA-og-Ix3" secondAttribute="centerX" id="2g4-Wb-OyU"/>
+                            <constraint firstItem="M5k-Jt-BX7" firstAttribute="bottom" secondItem="Xec-9c-pos" secondAttribute="bottom" constant="250" id="7P8-De-wz8"/>
+                            <constraint firstItem="Xec-9c-pos" firstAttribute="leading" secondItem="M5k-Jt-BX7" secondAttribute="leading" constant="90" id="EuJ-UX-HN2"/>
                             <constraint firstAttribute="bottom" secondItem="gL6-BV-Jt2" secondAttribute="bottom" id="NsS-W8-pMS"/>
                             <constraint firstItem="gL6-BV-Jt2" firstAttribute="leading" secondItem="M5k-Jt-BX7" secondAttribute="leading" id="Tt8-35-SfH"/>
+                            <constraint firstItem="M5k-Jt-BX7" firstAttribute="trailing" secondItem="hec-23-qPG" secondAttribute="trailing" constant="90" id="Ukm-l6-2US"/>
                             <constraint firstItem="f55-ii-EYz" firstAttribute="top" secondItem="M5k-Jt-BX7" secondAttribute="top" constant="300" id="YQG-AO-N33"/>
-                            <constraint firstItem="hec-23-qPG" firstAttribute="centerX" secondItem="oAA-og-Ix3" secondAttribute="centerX" id="ZNz-1g-1PB"/>
                             <constraint firstItem="gL6-BV-Jt2" firstAttribute="top" secondItem="oAA-og-Ix3" secondAttribute="top" id="g4K-4d-hTb"/>
                             <constraint firstItem="M5k-Jt-BX7" firstAttribute="trailing" secondItem="gL6-BV-Jt2" secondAttribute="trailing" id="iLC-jd-25w"/>
                             <constraint firstItem="rcF-AW-iDN" firstAttribute="top" secondItem="M5k-Jt-BX7" secondAttribute="top" constant="120" id="ib0-Ua-rAq"/>
                             <constraint firstItem="rcF-AW-iDN" firstAttribute="centerX" secondItem="oAA-og-Ix3" secondAttribute="centerX" id="j3g-oR-cvS"/>
-                            <constraint firstItem="M5k-Jt-BX7" firstAttribute="bottom" secondItem="hec-23-qPG" secondAttribute="bottom" constant="250" id="ou9-BB-kgO"/>
+                            <constraint firstItem="M5k-Jt-BX7" firstAttribute="bottom" secondItem="hec-23-qPG" secondAttribute="bottom" constant="250" id="pGN-R7-C3c"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ypw-d9-l9K"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nwh-9p-5CT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -243,6 +264,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
