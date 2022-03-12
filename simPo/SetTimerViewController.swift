@@ -8,6 +8,8 @@
 import UIKit
 
 class SetTimerViewController: UIViewController {
+  
+  var status = "Not Changed"
 
   override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,8 @@ class SetTimerViewController: UIViewController {
   @IBAction func backToFrontPage() {
     dismiss(animated: true, completion: nil)
   }
-
-
+  
+  @IBAction func startCountdown() {
+    print(status)
+  }
 }

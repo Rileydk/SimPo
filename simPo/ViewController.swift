@@ -12,6 +12,16 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
   }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let controller = segue.destination as? SetTimerViewController
+    
+    if segue.identifier == "setFocusTime" {
+      controller?.status = "Focus"
+    } else if segue.identifier == "setRestTime" {
+      controller?.status = "Rest"
+    }
+  }
 
 
 }

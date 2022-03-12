@@ -42,7 +42,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="vig-99-9O0" kind="presentation" id="gHx-ls-Cqk"/>
+                                    <segue destination="vig-99-9O0" kind="presentation" identifier="setRestTime" id="gHx-ls-Cqk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQf-u7-EJY">
@@ -60,7 +60,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="vig-99-9O0" kind="presentation" id="rZ2-OB-2Wf"/>
+                                    <segue destination="vig-99-9O0" kind="presentation" identifier="setFocusTime" id="rZ2-OB-2Wf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -137,6 +137,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="startCountdown" destination="vig-99-9O0" eventType="touchUpInside" id="baV-xO-xma"/>
                                     <segue destination="Gk0-0Y-lU7" kind="presentation" id="U3a-IV-HzQ"/>
                                 </connections>
                             </button>
@@ -259,7 +260,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gHx-ls-Cqk"/>
+        <segue reference="rZ2-OB-2Wf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
