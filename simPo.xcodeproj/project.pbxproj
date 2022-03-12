@@ -13,6 +13,7 @@
 		C8160D5127DC4E1E0099D110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8160D4F27DC4E1E0099D110 /* Main.storyboard */; };
 		C8160D5327DC4E210099D110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8160D5227DC4E210099D110 /* Assets.xcassets */; };
 		C8160D5627DC4E210099D110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8160D5427DC4E210099D110 /* LaunchScreen.storyboard */; };
+		C8160D6027DD5B550099D110 /* SetTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C8160D5227DC4E210099D110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8160D5527DC4E210099D110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8160D5727DC4E210099D110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C8160D4927DC4E1D0099D110 /* AppDelegate.swift */,
 				C8160D4B27DC4E1D0099D110 /* SceneDelegate.swift */,
 				C8160D4D27DC4E1D0099D110 /* ViewController.swift */,
+				C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */,
 				C8160D4F27DC4E1E0099D110 /* Main.storyboard */,
 				C8160D5227DC4E210099D110 /* Assets.xcassets */,
 				C8160D5427DC4E210099D110 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C8160D4E27DC4E1D0099D110 /* ViewController.swift in Sources */,
 				C8160D4A27DC4E1D0099D110 /* AppDelegate.swift in Sources */,
 				C8160D4C27DC4E1D0099D110 /* SceneDelegate.swift in Sources */,
+				C8160D6027DD5B550099D110 /* SetTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  simPo
 //
-//  Created by 陳怡萩 on 2022/3/12.
+//  Created by Riley Lai on 2022/3/12.
 //
 
 import UIKit
@@ -11,7 +11,6 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
 
 
@@ -23,4 +22,5 @@ class ViewController: UIViewController {
  3. 想要對Button製作Highlighted效果，只能用Image來替換，不能直接用Background嗎？
  4. 如何對Label增加padding？
  5. 設定segue以後，作為背景的Image大小自動變小？
+ 6. 只寫了一點點，程式卻好像已經變得很大，縮小的方法？
  */
