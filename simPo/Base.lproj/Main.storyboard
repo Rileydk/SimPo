@@ -175,6 +175,9 @@
                             <constraint firstItem="hQw-cB-JW0" firstAttribute="centerY" secondItem="ye3-qe-UYd" secondAttribute="centerY" id="ze1-HJ-gNc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="statusLabel" destination="4Ki-Mf-0ST" id="w8b-BT-y1h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XrT-Fa-jhK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

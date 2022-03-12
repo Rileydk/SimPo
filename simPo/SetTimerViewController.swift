@@ -9,17 +9,16 @@ import UIKit
 
 class SetTimerViewController: UIViewController {
   
-  var status = "Not Changed"
+  @IBOutlet weak var statusLabel: UILabel!
+  
+  var status = ""
 
   override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
+      super.viewDidLoad()
+      statusLabel.text = status
+  }
   @IBAction func backToFrontPage() {
     dismiss(animated: true, completion: nil)
   }
-  
-  @IBAction func startCountdown() {
-    print(status)
-  }
+
 }
