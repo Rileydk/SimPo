@@ -89,8 +89,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQw-cB-JW0">
-                                <rect key="frame" x="263.5" y="297.5" width="42" height="61"/>
+                                <rect key="frame" x="263.5" y="298.5" width="42" height="59"/>
                                 <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="42"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="＞">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,8 +101,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye3-qe-UYd">
-                                <rect key="frame" x="108.5" y="297.5" width="42" height="61"/>
+                                <rect key="frame" x="108.5" y="298.5" width="42" height="59"/>
                                 <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="42"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="＜">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -132,7 +134,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="startCountdown" destination="vig-99-9O0" eventType="touchUpInside" id="baV-xO-xma"/>
-                                    <segue destination="Gk0-0Y-lU7" kind="presentation" id="U3a-IV-HzQ"/>
+                                    <segue destination="Gk0-0Y-lU7" kind="presentation" id="Gdc-Pk-YXK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdI-US-LDN">
