@@ -15,6 +15,7 @@
 		C8160D5627DC4E210099D110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8160D5427DC4E210099D110 /* LaunchScreen.storyboard */; };
 		C8160D6027DD5B550099D110 /* SetTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */; };
 		C8160D6227DDEC4F0099D110 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8160D6127DDEC4F0099D110 /* CountdownViewController.swift */; };
+		C8160D6427DDF0E10099D110 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C8160D6327DDF0E10099D110 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C8160D5727DC4E210099D110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimerViewController.swift; sourceTree = "<group>"; };
 		C8160D6127DDEC4F0099D110 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		C8160D6327DDF0E10099D110 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */,
 				C8160D6127DDEC4F0099D110 /* CountdownViewController.swift */,
 				C8160D4F27DC4E1E0099D110 /* Main.storyboard */,
+				C8160D6327DDF0E10099D110 /* README.md */,
 				C8160D5227DC4E210099D110 /* Assets.xcassets */,
 				C8160D5427DC4E210099D110 /* LaunchScreen.storyboard */,
 				C8160D5727DC4E210099D110 /* Info.plist */,
@@ -133,6 +136,7 @@
 			files = (
 				C8160D5627DC4E210099D110 /* LaunchScreen.storyboard in Resources */,
 				C8160D5327DC4E210099D110 /* Assets.xcassets in Resources */,
+				C8160D6427DDF0E10099D110 /* README.md in Resources */,
 				C8160D5127DC4E1E0099D110 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
