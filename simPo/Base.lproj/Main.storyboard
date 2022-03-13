@@ -133,7 +133,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="startCountdown" destination="vig-99-9O0" eventType="touchUpInside" id="baV-xO-xma"/>
                                     <segue destination="Gk0-0Y-lU7" kind="presentation" id="Gdc-Pk-YXK"/>
                                 </connections>
                             </button>
