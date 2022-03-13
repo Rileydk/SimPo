@@ -95,6 +95,9 @@
                                 <state key="normal" title="＞">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addTime" destination="vig-99-9O0" eventType="touchUpInside" id="Wa2-Ky-ALR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye3-qe-UYd">
                                 <rect key="frame" x="120.5" y="297.5" width="30" height="61"/>
@@ -103,6 +106,9 @@
                                 <state key="normal" title="&lt;">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="substractTime" destination="vig-99-9O0" eventType="touchUpInside" id="mGu-fE-m2I"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ki-Mf-0ST">
                                 <rect key="frame" x="163" y="120" width="88" height="48"/>
@@ -161,6 +167,7 @@
                     </view>
                     <connections>
                         <outlet property="statusLabel" destination="4Ki-Mf-0ST" id="w8b-BT-y1h"/>
+                        <outlet property="timeSetLabel" destination="8zj-1Z-UWm" id="Oh5-B8-v90"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XrT-Fa-jhK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
