@@ -175,10 +175,10 @@
             </objects>
             <point key="canvasLocation" x="340.57971014492756" y="55.580357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Countdown View Controller-->
         <scene sceneID="ibQ-jy-NT3">
             <objects>
-                <viewController id="Gk0-0Y-lU7" sceneMemberID="viewController">
+                <viewController id="Gk0-0Y-lU7" customClass="CountdownViewController" customModule="simPo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oAA-og-Ix3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,6 +240,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ypw-d9-l9K"/>
+                    <connections>
+                        <outlet property="statusLabel" destination="f55-ii-EYz" id="Aue-bD-k2d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nwh-9p-5CT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

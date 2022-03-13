@@ -14,6 +14,7 @@
 		C8160D5327DC4E210099D110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8160D5227DC4E210099D110 /* Assets.xcassets */; };
 		C8160D5627DC4E210099D110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8160D5427DC4E210099D110 /* LaunchScreen.storyboard */; };
 		C8160D6027DD5B550099D110 /* SetTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */; };
+		C8160D6227DDEC4F0099D110 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8160D6127DDEC4F0099D110 /* CountdownViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C8160D5527DC4E210099D110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8160D5727DC4E210099D110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimerViewController.swift; sourceTree = "<group>"; };
+		C8160D6127DDEC4F0099D110 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C8160D4B27DC4E1D0099D110 /* SceneDelegate.swift */,
 				C8160D4D27DC4E1D0099D110 /* ViewController.swift */,
 				C8160D5F27DD5B550099D110 /* SetTimerViewController.swift */,
+				C8160D6127DDEC4F0099D110 /* CountdownViewController.swift */,
 				C8160D4F27DC4E1E0099D110 /* Main.storyboard */,
 				C8160D5227DC4E210099D110 /* Assets.xcassets */,
 				C8160D5427DC4E210099D110 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8160D4E27DC4E1D0099D110 /* ViewController.swift in Sources */,
+				C8160D6227DDEC4F0099D110 /* CountdownViewController.swift in Sources */,
 				C8160D4A27DC4E1D0099D110 /* AppDelegate.swift in Sources */,
 				C8160D4C27DC4E1D0099D110 /* SceneDelegate.swift in Sources */,
 				C8160D6027DD5B550099D110 /* SetTimerViewController.swift in Sources */,

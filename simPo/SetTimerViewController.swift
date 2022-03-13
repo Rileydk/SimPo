@@ -26,6 +26,11 @@ class SetTimerViewController: UIViewController {
     updateTimeSet()
   }
   
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let controller = segue.destination as? CountdownViewController
+    controller?.status = status
+  }
+  
   @IBAction func addTime() {
     if timeSet < 120 {
       timeSet += 5
